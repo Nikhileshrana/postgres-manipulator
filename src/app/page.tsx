@@ -22,7 +22,7 @@ const Page = () => {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState('table');
-  
+
 
   const executeQuery = async () => {
     setLoading(true);
@@ -75,7 +75,7 @@ const Page = () => {
             className="flex items-center gap-2"
           >
             <Database className="h-6 w-6 text-primary" />
-            <h1 className="text-2xl md:text-3xl font-bold">AI PostgreSQL Query Tester</h1>
+            <h1 className="text-2xl md:text-3xl font-bold">AI PostgreSQL Query Tester by Nikhilesh</h1>
           </motion.div>
           
           <Button variant="outline" size="icon" onClick={toggleTheme}>

@@ -22,6 +22,7 @@ const Page = () => {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState('table');
+  
 
   const executeQuery = async () => {
     setLoading(true);
